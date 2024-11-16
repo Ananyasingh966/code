@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animated-class{
+            position: relative;
+            height: 50px;
+            width: 50px;
+            background-color: brown;
+            animation-direction: alternate-reverse;
+            animation-duration: 5s;
+            animation-name:example;
+            animation-iteration-count: infinite;
+            
+        }
+        @keyframes example{
+            0%{
+                background-color: blueviolet;
+                left: 0;
+            }
+25%{
+    background-color: blue;
+    transition: transitonX(1000px,0px);
+}
+50%
+{
+    background-color: aqua;
+    transition: (1000px,500px);
+}
+75%{
+    background-color: beige;
+    transition:77% ;
+}
+100%{
+    border-color: aqua;
+    left:100%;
+}
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="animated-class "></div>
+</body>
+</html>
+</head>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="hello()">tap</button>
+    <script>
+        function hello(){
+        let num1=parseInt(prompt("chem marks"))
+        let num2=parseInt(prompt("mathhs marks"))
+        let num3=parseInt(prompt("phy marks"))
+         let a=num1+num2+num3
+         let per= (a/300)*100
+         alert(` ${per} is the %`)
+         if(per>90){
+            alert("grd a")}
+        else if(per>80 && per<90)
+            {
+                alert("grd b")
+            }
+        else{
+                alert(" chup kr")
+            }
+         
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>function gameover(){
+        let a=math.random(math.random()*100);
+        let count=parseInt(0)
+        while (true){
+            let b =prompt(" guess the number ")
+            if( a==b){
+                alert(" you guessed the correct number well done ")
+                alert(`number attempted${count} `)
+                count+=1
+                break;
+            }
+            else {
+                if(b>a){
+                    alert(" close enough retry with a lower  number ")
+                    count+=1
+                    alert(`$ number attempted${count} `)
+                    continue;
+
+                }
+                else if(b<a){
+                    alert(" close enough retry with a higher  number ")
+                    count+=1
+                    alert(`$ number attempted${count} `)
+                    continue;
+                }
+                
+
+
+                
+
+            }
+
+            
+        }
+        }
+
+    
+    
+
+
+    </script>
+
+    
+</body>
+</html>
